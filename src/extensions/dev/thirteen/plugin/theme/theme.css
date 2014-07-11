@@ -1,0 +1,67 @@
+.CodeMirror-scroll {
+    background: #f8f8f8 no-repeat center center;
+}
+.thirteen-theme-logo {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    background: transparent;
+    color: #61cb6b;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'dancing-script', sans-serif;
+    text-shadow: -1px -1px #fff, 1px 1px #333;
+}
+.CodeMirror-linenumbers {
+    border-right: 1px solid #cccccc;
+    box-shadow: 2px 0 8px #a5a5a5;
+}
+.CodeMirror-foldgutter-open,
+.CodeMirror-foldgutter-folded,
+.CodeMirror-foldgutter-blank {
+    color: #666666;
+    cursor: pointer;
+}
+.jstree-brackets li a,
+#open-files-container a {
+    font-size: 1.1em;
+}
+#project-files-header,
+#working-set-header {
+    font-size: 1.2em;
+}
+
+/* 高亮选中效果 */
+.CodeMirror-focused .CodeMirror-activeline-background {
+    /*border: #35a5e5 1px solid;
+    transition: all 0.30s ease-in-out;*/
+}
+
+#status-bar {
+    font-size: 1.1em;
+    border-top: 1px solid #cccccc;
+}
+
+#editor-holder .editor-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+#editor-holder .editor-bg .icon-avatar {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 100px;
+    height: 100px;
+    background: url(son.png) no-repeat;
+    border-radius: 50px;
+    border: 1px solid #dddddd;
+    box-shadow: 2px 0 8px #a5a5a5;
+}
+#editor-holder .CodeMirror,
+#editor-holder .CodeMirror-scroll {
+    background: transparent;
+}
