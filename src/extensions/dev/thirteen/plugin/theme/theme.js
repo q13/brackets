@@ -31,6 +31,7 @@ define(function (require, exports, module) {
             titleBarEl = $('#titlebar', bodyEl);
 
         bodyEl.append('<link id="thirteen-theme" rel="stylesheet" type="text/css" href="' + ExtensionUtils.getModulePath(module, '') + 'theme.css" />');
+        bodyEl.append('<link rel="stylesheet" type="text/css" href="http://mplus-fonts.sourceforge.jp/webfonts/mplus_webfonts.css" />');
         bodyEl.append('<script src="http://use.edgefonts.net/dancing-script.js"></script>');
         editorHolderEl.prepend('<div class="editor-bg"><span class="icon-avatar"></span></div>');
         //alert($('#editor-holder').length);

@@ -1,6 +1,6 @@
 {
     "bitwise": false,
-    "camelcase": true,
+    "camelcase": false,
     "curly": true,
     "eqeqeq": false,
     "es3": true,
@@ -11,7 +11,7 @@
     "newcap": true,
     "noarg": false,
     "immed": true,
-    "noempty": true,
+    "noempty": false,
     "nonew": false,
     "plusplus": false,
     "undef": true,

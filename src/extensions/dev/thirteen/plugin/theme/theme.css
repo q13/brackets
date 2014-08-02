@@ -1,3 +1,9 @@
+/*.CodeMirror pre {
+    font-family: "mplus-1p-regular" ! important;
+}*/
+.CodeMirror pre .cm-atom{
+    /*text-shadow: 0px 2px 3px #aaaaaa;*/
+}
 .CodeMirror-scroll {
     background: #f8f8f8 no-repeat center center;
 }
