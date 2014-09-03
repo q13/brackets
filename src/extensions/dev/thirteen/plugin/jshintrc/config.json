@@ -15,7 +15,7 @@
     "nonew": false,
     "plusplus": false,
     "undef": true,
-    "unused": false,
+    "unused": true,
     "strict": false,
     "maxparams": false,
     "maxdepth": false,
